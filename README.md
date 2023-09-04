@@ -1,57 +1,16 @@
-# Ant Design Pro
+# Ant-design-pro 全量模板
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+# 环境说明
 
-## Environment Prepare
+1. node 18.16.0
+2. 安装 pro-cli `npm i @ant-design/pro-cli -g`
+3. 使用 pro 新建项目 `pro create antd-all`
+4. 选择 umi 3.0 （4.0 不支持全量模板）
+5. 选择 complete
+6. 进入项目目录
 
-Install `node_modules`:
+# 安装启动
 
-```bash
-npm install
-```
+2. Install `npm i --force`
 
-or
-
-```bash
-yarn
-```
-
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
-### Start project
-
-```bash
-npm start
-```
-
-### Build project
-
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+3. Start in package.json `"start": "cross-env NODE_OPTIONS=--openssl-legacy-provider UMI_ENV=dev umi dev",`
